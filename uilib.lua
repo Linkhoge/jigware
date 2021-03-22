@@ -49,7 +49,7 @@ function lib:MakeWindow(title)
 	
 	Top.Name = title
 	
-	Top.BackgroundColor3 = lib.Colors.Header
+	Top.BackgroundColor3 = Color3.new(0.101961, 0.101961, 0.101961)
 	Top.BorderSizePixel = 0
 	Top.Position = UDim2.new(0, getNextWindowPos()+ 100, 0, 100)
 	Top.Size = UDim2.new(0, 250, 0, 25)
@@ -319,7 +319,7 @@ function lib:MakeWindow(title)
 		
 		Dropdown.Name = "Dropdown"
 		
-		Dropdown.BackgroundColor3 = lib.Colors.Dropdown
+		Dropdown.BackgroundColor3 = Color3.new(0.101961, 0.101961, 0.101961)
 		Dropdown.BorderSizePixel = 0
 		Dropdown.Size = UDim2.new(0, 240, 0, 25)
 		Dropdown.Font = Enum.Font.Code
