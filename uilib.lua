@@ -7,7 +7,7 @@ ScreenGui.Name = "nikouilib"
 local lib = {}
 
 lib.Colors = {}
-lib.Colors.Underline = Color3.new(1,0,0)
+lib.Colors.Underline = Color3.new(1, 0.376471, 0.572549)
 lib.Colors.Header = Color3.new(0.0627451, 0.0627451, 0.0627451)
 lib.Colors.Body = Color3.new(0.0627451, 0.0627451, 0.0627451)
 lib.Colors.Text = Color3.new(0.0627451, 0.0627451, 0.0627451)
