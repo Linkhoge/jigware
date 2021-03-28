@@ -280,7 +280,7 @@ function lib:MakeWindow(title)
 		return val;
 	end
 	
-	function ez:addLabel(text,align)
+	function ez:addLabel(text)
 		local Label = Instance.new("TextLabel")
 
 		Label.Name = "Label"
@@ -293,7 +293,7 @@ function lib:MakeWindow(title)
 		Label.TextColor3 = lib.Colors.Text
 		Label.TextSize = 15
 		Label.TextWrapped = true
-		Label.TextXAlignment = align
+		Label.TextXAlignment = Left
 		
 		local val = Instance.new"StringValue"
 		val.Parent = Label
