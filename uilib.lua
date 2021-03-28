@@ -293,7 +293,7 @@ function lib:MakeWindow(title)
 		Label.TextColor3 = lib.Colors.Text
 		Label.TextSize = 15
 		Label.TextWrapped = true
-		Label.TextXAlignment = Enum.TextXAlignment[align]
+		Label.TextXAlignment = align
 		
 		local val = Instance.new"StringValue"
 		val.Parent = Label
