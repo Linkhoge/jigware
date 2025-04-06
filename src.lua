@@ -1,5 +1,7 @@
 local jigUI = Instance.new("ScreenGui")
 
+local TextChatService = game:GetService("TextChatService")
+
 jigUI.Name = "jigUI"
 jigUI.Parent = game.CoreGui
 jigUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -82,7 +84,7 @@ end
 
 local function Say(msg)
 	print(msg)
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(msg, "All")
+	TextChatService.TextChannels.RBXGeneral:SendAsync(msg)
 end
 
 local Main = Instance.new("Frame")
