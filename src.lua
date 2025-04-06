@@ -81,6 +81,7 @@ function IsInTable(table, tofind)
 end
 
 local function Say(msg)
+	print(msg)
 	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(msg, "All")
 end
 
